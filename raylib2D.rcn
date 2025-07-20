@@ -1,0 +1,13 @@
+using raylib.hpp
+func main(){
+	InitWindow(400,300,"Ŭntajtled raylib window")
+	SetTargetFPS(40)
+	while(WindowShouldClose()==0){
+		BeginDrawing()
+		ClearBackground(WHITE)
+		DrawRectangle(100, 100, 100, 100, BLUE)
+		EndDrawing()
+	}
+	CloseWindow()
+	return(0)
+}

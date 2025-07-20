@@ -1,0 +1,11 @@
+using base.hpp
+func main(){
+    let a = to_int(input("Skribu la numeron:"))
+    if(a==1){
+        println(1)
+    elif(a==2){
+        println(2)
+    else{
+        println("?")
+    }
+}
